@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="flex">
+        <h2>Rock Paper Scissors</h2>
+        <h6>~By Abhishek Abhinav</h6>
+    </nav>
+    <main class="flex">
+        <div class="start flex">
+            <img src="https://64.media.tumblr.com/ebad78ee9aaaf6d245086b8e286e49b7/tumblr_n544xviC0U1svwlszo1_500.gif"
+                alt="game-gif">
+            <button id="play" class="btn">PLAY NOW</button>
+        </div>
+        <div class="game flex hide">
+            <div class="output flex">
+                <div class="user-move flex">
+                    <h3>You</h3>
+                    <h1 id="user">✌🏼</h1><br>
+                    <h1 id="user-score">0</h1>
+                </div>
+                <div class="comp-move flex">
+                    <h3>Computer</h3>
+                    <h1 id="comp">✊🏼</h1><br>
+                    <h1 id="comp-score">0</h1>
+                </div>
+            </div>
+            <div class="score-board flex">
+                <!-- <div class="user-score">
+                    <h3>You</h3>
+                    <h1>0</h1>
+                </div>
+                <div class="comp-score">
+                    <h3>You</h3>
+                    <h1>0</h1>
+                </div> -->
+
+                <div class="msg flex">Start Playing...</div>
+            </div>
+            <div class="input flex">
+                <h2>Choose Your Move.</h2>
+                <div class="option">
+                    <button class="opt rock flex" id="rock">
+                        <img src="https://rwest88.github.io/Rock-Paper-Scissors/assets/images/rock.png" alt="">
+                    </button>
+                    <button class="opt paper flex" id="paper">
+                        <img src="https://rwest88.github.io/Rock-Paper-Scissors/assets/images/paper.png" alt="">
+                    </button>
+                    <button class="opt scissors flex" id="scissors">
+                        <img src="https://icon-library.com/images/rock-paper-scissors-icon/rock-paper-scissors-icon-5.jpg"
+                            alt="">
+                    </button>
+                </div>
+                <button class="flex btn" id="reset" name="reset" disabled>TRY AGAIN</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="about">
+            <h4>About Our Game</h4>
+            <p>Rock, Paper, Scissors is a simple hand game often used as a decision-making tool or a playful competition
+                between two people. The game has three possible outcomes, each represented by one of the three elements:
+                rock, paper, and scissors. The rules are straightforward—rock crushes scissors, scissors cuts paper, and
+                paper covers rock. Players simultaneously form one of the three shapes with their hands, and the winner
+                is determined based on the interactions between the chosen elements. The game is known for its
+                simplicity, quick gameplay, and widespread popularity as a casual and enjoyable activity.</p>
+        </div>
+        <div class="credit">
+            <h5>&copy; Copyright 2024 Abhishek Abhinav. All rights reserved.</h5>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
